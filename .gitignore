@@ -2,3 +2,4 @@ test.py
 Pipfile.lock
 .projectile
 .swp
+criminalip/__pycache__
