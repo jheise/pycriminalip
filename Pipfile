@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
+pdoc3 = "*"
+typing = "*"
 
 [dev-packages]
 
