@@ -1,5 +1,7 @@
-test.py
+scratch.py
 Pipfile.lock
 .projectile
 .swp
 criminalip/__pycache__
+test/__pycache__
+__pycache__

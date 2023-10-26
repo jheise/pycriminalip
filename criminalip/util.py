@@ -13,7 +13,8 @@ def _convert_bool(val: bool) -> str:
     """
     return str(val).lower()
 
-def _build_full_url(path:str) -> str:
+
+def _build_full_url(path: str) -> str:
     """Builds furl URL.
 
     Args:
@@ -24,5 +25,14 @@ def _build_full_url(path:str) -> str:
     """
     return URL_BASE + path
 
+
 class CriminalIPException(Exception):
     """Exception generated for errors in CriminalIP API."""
+
+
+class CriminalIPServerException(CriminalIPException):
+    """Exception generated for server issues."""
+
+
+class CriminalIPAPIException(CriminalIPException):
+    """Exception generated for API issues"""
