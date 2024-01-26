@@ -5,3 +5,5 @@ Pipfile
 .swp
 src/criminalip/__pycache__
 __pycache__
+dist/*
+src/pycriminalip.egg-info/
